@@ -18,10 +18,36 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+corbado-auth {
+  --primary-color: #1953ff;
+  --primary-color-rgb: 25, 83, 255;
+  --primary-background-color: #1953ff;
+  --primary-hover-color: #1145df;
+
+  --secondary-font-color: #59acff;
+  --secondary-background-color: transparent;
+  --secondary-border-color: #59acff;
+
+
+  --secondary-background-hover-color: transparent;
+  --secondary-border-hover-color: #59acff;
+  --secondary-font-hover-color: #59acff;
+  --heading-color: #1953ff;
+  --text-color: #000;
+  --text-disabled-color: #999;
+  --light-color: #59acff;
+  --error-color: #FF4C51;
+  --primary-font: 'Space Grotesk', sans-serif;
+  --secondary-font: 'Inter', sans-serif;
+  --border-color: rgba(143, 155, 191, 0.5);
+  --email-provider-btn-color: rgba(143, 155, 191, 0.5);
+
+  --border-radius: 25px;
+  --border-container-width: 1px;
+  --text-align: left;
 }
